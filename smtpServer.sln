@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smtpServer", "smtpServer\smtpServer.csproj", "{A11221AE-3C43-4D2E-9B3B-BCE358879924}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailData", "..\wirelabsMailer\EmailData\EmailData.csproj", "{B81E8E61-56F4-4D26-A186-9BB14071D625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A11221AE-3C43-4D2E-9B3B-BCE358879924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11221AE-3C43-4D2E-9B3B-BCE358879924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11221AE-3C43-4D2E-9B3B-BCE358879924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11221AE-3C43-4D2E-9B3B-BCE358879924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81E8E61-56F4-4D26-A186-9BB14071D625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81E8E61-56F4-4D26-A186-9BB14071D625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81E8E61-56F4-4D26-A186-9BB14071D625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81E8E61-56F4-4D26-A186-9BB14071D625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0A75B84-3FCD-41F1-8F8B-2374BAC9E59F}
+	EndGlobalSection
+EndGlobal
